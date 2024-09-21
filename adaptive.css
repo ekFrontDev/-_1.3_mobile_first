@@ -1,0 +1,194 @@
+/*телефон*/
+@madia (max-width: 768px) {
+	body {
+		width: auto;
+	}
+}
+
+/*планшет*/
+@media (min-width: 768px) and (max-width: 1120px) {
+	body {
+		width: auto;
+		height: 100%;
+	}
+
+.nav__call,
+.nav__chat,
+.nav__profile,
+.nav__divider2 {
+	display: flex;
+}
+
+.main__service-1 {
+	margin-left: 24px;
+ }
+
+.nav__logo {
+	margin-right: 250.73px;
+}
+
+.main__sidebar::after {
+	content: "";
+	position: absolute;
+	left: 742px;
+	top: 183px;
+	display: block;
+	width: 24px;
+	height: 40px;
+	margin-right: 0;
+	background-color: rgba(255, 255, 255, 0.4);
+	background: linear-gradient(to left, rgba(255, 255, 255, 0.4)25%, rgba(255, 255, 255, 0)75%);
+}
+
+.main__about-us {
+	display: flex;
+	margin: 32px 25px 40px 24px;
+	padding: 0;
+}
+
+.article__paragraph,
+.article__paragraph-2 {
+	display: flex;
+	margin-left: auto;
+	margin-top: 0;
+	width: 312px;
+	height: auto;
+	line-height: 20px;
+}
+
+.article__paragraph-3 {
+	display: none;
+}
+
+.aside__next {
+	margin: 0;
+}
+
+.main__logo-time--size {
+	width: 360px;
+	height: 208px;
+	border-radius: 6px;
+}
+}
+
+/*десктоп*/
+@media (min-width: 1120px) and (max-width: 2560px){
+	body {
+		width: auto;
+		height: 100%;
+	}
+
+	.header {
+		margin-top: 42px;
+		height: 40px;
+		border-bottom: 0;
+	}
+
+	.nav__menu,
+	.nav__logo,
+	.nav__call,
+	.nav__chat,
+	.nav__profile,
+	.nav__divider2,
+	.nav__divider {
+		display: none;
+	}
+
+	.nav__repair {
+		margin-left: auto;
+	}
+
+	.nav__checkstatus {
+		margin: 0 32px;
+	}
+
+	.nav__repair::before {
+		content:"Оставить заявку";
+		display: inline-block;
+		font-family: "TT Lakes";
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: 500;
+		padding: 8px;
+		vertical-align: top;
+	}
+
+	.nav__checkstatus::before {
+		content:"Статус ремонта";
+		display: inline-block;
+		font-family: "TT Lakes";
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: 500;
+		padding: 8px;
+		vertical-align: top;
+	}
+
+	.nav {
+		align-items: flex-start;
+		height: 40px;
+		margin-bottom: 8px;
+	}
+
+	.main__title {
+		margin: 0;
+		margin-left: 30px;
+		margin-top: -40px;
+	}
+
+	.main__sidebar {
+		display: flex;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+		white-space: nowrap;
+		padding-right: 16.54px;
+		padding-left: 0;
+	}
+
+	.main__service-1-button,
+	.main__service-2-button,
+	.main__service-3-button,
+	.main__service-4-button,
+	.main__service-5-button {
+		padding: 4px 18px 4px 18px;
+	}
+
+	.main__service-6-button {
+		margin-left: 24px;
+		padding: 8px 18px;
+	}
+
+	.main__about-us {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 0; 
+	}
+	.main__history {
+		display: inline;
+		flex-wrap: wrap;
+		width: auto;
+		height: 160px;
+	}
+
+	.main__logo-time--size {
+	width: 531.35px;
+	height: 307px;
+	margin-left: 30px;
+	}
+
+	.article__paragraph,
+	.article__paragraph-2,
+	.article__paragraph-3 {
+		width: auto;
+		padding: 0;
+		display: inline;
+	}
+
+.main__article-p1 {
+	margin-bottom: 20px;
+}
+
+.article__paragraph-2 {
+	padding-bottom: 0;
+}
+}
