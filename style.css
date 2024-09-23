@@ -47,10 +47,18 @@ main {
 	margin-top: auto;
 	margin-bottom: auto;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	flex-wrap: nowrap;
 	padding: 0;	
+}
+
+.nav__menu {
+	margin-left: 14px;
+}
+
+.nav__checkstatus {
+	margin-right: 16px;
 }
 
 .nav__divider,
