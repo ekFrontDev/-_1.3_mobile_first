@@ -37,7 +37,7 @@
 	height: 40px;
 	margin-right: 0;
 	background-color: rgba(255, 255, 255, 0.4);
-	background: linear-gradient(to left, rgba(255, 255, 255, 0.4)25%, rgba(255, 255, 255, 0)75%);
+	background: linear-gradient(to left, rgba(255, 255, 255, 0.4)25%, rgba(255, 255, 255, 0)75%);	
 }
 
 .main__about-us {
@@ -72,16 +72,17 @@
 }
 
 /*десктоп*/
-@media (min-width: 1120px) and (max-width: 2560px){
+@media (min-width: 1120px) {
 	body {
-		width: auto;
+		width: 1120px;
 		height: 100%;
 	}
 
 	.header {
-		margin-top: 42px;
+		padding-top: 42px;
 		height: 40px;
 		border-bottom: 0;
+		background-color: rgba(248, 248, 248, 1);
 	}
 
 	.nav__menu,
@@ -133,7 +134,7 @@
 	.main__title {
 		margin: 0;
 		margin-left: 30px;
-		margin-top: -40px;
+		margin-top: -65px;
 	}
 
 	.main__sidebar {
@@ -145,12 +146,21 @@
 		padding-left: 0;
 	}
 
+	.main__sidebar::after {
+		background-color: rgba(0, 0, 0, 0);
+		background: linear-gradient(to left, rgba(0, 0, 0, 0)25%, rgba(0, 0, 0, 0)75%);
+	}
+
+	.main__service-1 {
+		margin-left: 24px;
+	}
+
 	.main__service-1-button,
 	.main__service-2-button,
 	.main__service-3-button,
 	.main__service-4-button,
 	.main__service-5-button {
-		padding: 4px 18px 4px 18px;
+		padding: 4px 16px 4px 16px;
 	}
 
 	.main__service-6-button {
@@ -161,12 +171,15 @@
 	.main__about-us {
 		display: flex;
 		justify-content: space-between;
-		margin-top: 0; 
+		margin-top: 0;
+		margin-left: 34px;
+		margin-right: 28.65px;
 	}
+
 	.main__history {
-		display: inline;
+		display: flex;
 		flex-wrap: wrap;
-		width: auto;
+		/* width: auto; */
 		height: 160px;
 	}
 
@@ -174,14 +187,18 @@
 	width: 531.35px;
 	height: 307px;
 	margin-left: 30px;
+	border-radius: 6px;
 	}
 
 	.article__paragraph,
 	.article__paragraph-2,
 	.article__paragraph-3 {
-		width: auto;
+		width: 496.02px;
 		padding: 0;
 		display: inline;
+		text-indent: 0;
+           margin-left: 0;
+           /* padding: 0; */
 	}
 
 .main__article-p1 {
@@ -190,5 +207,9 @@
 
 .article__paragraph-2 {
 	padding-bottom: 0;
+}
+
+.aside__next {
+	margin: 0;
 }
 }
