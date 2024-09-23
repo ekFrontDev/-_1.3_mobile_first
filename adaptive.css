@@ -179,7 +179,6 @@
 	.main__history {
 		display: flex;
 		flex-wrap: wrap;
-		/* width: auto; */
 		height: 160px;
 	}
 
@@ -197,8 +196,7 @@
 		padding: 0;
 		display: inline;
 		text-indent: 0;
-           margin-left: 0;
-           /* padding: 0; */
+    margin-left: 0;
 	}
 
 .main__article-p1 {
